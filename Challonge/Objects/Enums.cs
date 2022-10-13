@@ -23,7 +23,9 @@ namespace Challonge.Objects
         [EnumMember(Value = "awaiting_review")]
         AwaitingReview,
         [EnumMember(Value = "complete")]
-        Complete
+        Complete,
+        [EnumMember(Value = "group_stages_underway")]
+        GroupStagesUnderway
     }
     public enum TournamentType
     {
